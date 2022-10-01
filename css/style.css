@@ -345,9 +345,7 @@ transition-duration: 250ms;
 }
 
 .team-social-link:hover,
-.team-social-link:focus,
-.team-social-icon:focus,
-.team-social-icon:hover{
+.team-social-link:focus {
 color: var(--white-color);
 background-color: var(--accent-color);
 }
@@ -374,9 +372,7 @@ background-color: var(--accent-color);
 }
 
 .customers-link:hover,
-.customers-link:focus,
-.customers-icon:focus,
-.customers-icon:hover {
+.customers-link:focus   {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
