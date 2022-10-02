@@ -185,7 +185,7 @@ body {
 }
 .hero-banner {
     height: 600px;
-    width: 1600px;
+    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 
@@ -242,6 +242,7 @@ body {
 .advantages {
     display: flex;
     gap:30px;
+    text-align: left;
 
 }
 .advantages-title {
@@ -487,10 +488,10 @@ background-color: var(--accent-color);
 }
 
 .works-list {
-    
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    text-align: left;
 }
 
 .works-link {
